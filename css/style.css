@@ -1,0 +1,244 @@
+body {
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #E7E5DF;
+    background-size: cover;
+    color: #393E41;
+}
+
+.header {
+    background-image: url(../img/panel-header.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    border-bottom: 3px solid #202E39;
+    width: 100%;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 40px;
+}
+
+li a:hover {
+    text-decoration: underline;
+    background-color: rgba(231, 229, 223, .1);
+}
+
+li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.active a {
+    text-decoration: underline;
+}
+
+.content {
+    float: left;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Poiret One', sans-serif;
+}
+
+.me {
+    width: 40%;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin: 20px 5px;
+}
+
+.cv {
+    border: 2px solid #393E41;
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.gedeeld {
+    width: 50%;
+}
+
+.spel-naam {
+    width: 15%;
+}
+
+.spel-uitleg {
+    width: 85%;
+    text-align: left;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid #393E41;
+    padding: 10px 0;
+    text-align: center;
+}
+
+th {
+    background-color: #393E41;
+    color: #E7E5DF;
+}
+
+tr:nth-of-type(even) {
+    background-color: #D3D0CB;
+}
+
+caption {
+    padding: 10px;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+}
+
+.ervaring {
+    float: left;
+    display: inline;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.ervaring-foto {
+    width: 75%;
+}
+
+.first {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.interesse {
+    width: 70%;
+    height: 100px;
+    float: left;
+    margin: 10px 0;
+}
+
+.interesse-foto {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+hr {
+    border: 1px solid #393E41;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.ntflx {
+    width: 50%;
+}
+
+.contact {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.contact a:link, a:visited {
+    color: #393E41;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #393E41;
+    text-decoration: underline;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.formulier {
+    margin: 50px 0 20px 0;
+    width: 50%;
+    height: auto;
+}
+
+.single {
+    margin: 10px 0 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.single:focus {
+    border: 1px solid #393E41;
+    background-color: #E7E5DF;
+}
+
+.bericht {
+    min-width: 100%;
+    max-width: 200%;
+    min-height: 80px;
+    margin: 10px 0 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    border: 1px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bericht:focus {
+    min-width: 100%;
+    max-width: 200%;
+    min-height: 80px;
+    height: 25%;
+    border: 1px solid #393E41;
+    background-color: #E7E5DF;
+}
+
+.stuur {
+    width: 30%;
+    padding: 10px 0;
+    float: right;
+    margin: 0 -20px 20px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.stuur:hover {
+    cursor: pointer;
+    border: 1px solid #393E41;
+    background-color: #393E41;
+    color: #E7E5DF;
+    font-weight: bold;
+}
