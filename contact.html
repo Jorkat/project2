@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | joris-tm.be</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/joris-style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Joris Gijbels</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cv.html">CV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ervaring.html">ERVARING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="interesses.html">INTERESSES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <!-- Mijn Gegevens -->
+    <section class="py-5 border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 contact">
+            <p>Contacteer mij op één van de onderstaande manieren hieronder of via het contactformulier.</p>
+            <i class="fa fa-phone p10"></i><a href="tel:0468322837"> 0468322837</a><br>
+            <i class="fa fa-envelope p10"></i><a href="mailto:r0989530@student.thomasmore.be"> r0989530@student.thomasmore.be</a><br>
+            <i class="fa fa-linkedin-square p10"></i><a href="//www.linkedin.com/in/joris-gijbels" target="_blank"> Joris Gijbels</a>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- Contact Formulier -->
+      <section class="bg-light py-5 border-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-12">
+              <div class="formulier">
+                <form method="post" action="https://tm-statweb.be/sendmail.php">
+                  <div class="mb-3">
+                    <label for="naam" class="form-label">Naam:</label>
+                    <input type="text" class="form-control" id="naam" name="naam" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="voornaam" class="form-label">Voornaam:</label>
+                    <input type="text" class="form-control" id="voornaam" name="voornaam" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">E-mailadres:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <label for="skills" class="form-label">Interesse:</label>
+                  <select class="form-select" aria-label="Interesse in skills">
+                    <option selected>Kies een optie</option>
+                    <option value="html">html</option>
+                    <option value="css">css</option>
+                    <option value="bootstrap">bootstrap</option>
+                    <option value="sql">sql</option>
+                    <option value="csharp">c#</option>
+                  </select>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="vraag" class="form-label">Vraag:</label>
+                    <textarea class="form-control" id="vraag" name="vraag" rows="3"></textarea>
+                  </div>
+        
+                  <input type="hidden" name="studentemail" value="r0989530@student.thomasmore.be">
+        
+                  <button type="submit" class="btn btn-dark px-4">Verzenden</button>
+        
+        
+                </form>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="site-footer bg-dark py-3">
+      <div class="container">
+          <div class="row">
+              <div class="col-6 align-items-center text-right text-white-50">
+                  &copy; Joris Gijbels
+              </div>
+  
+              <div class="col-6 align-items-center text-left text-white-50">
+                <a href="https://www.facebook.com/joris.gijbels.1" target="_blank"><i class="fa-brands fa-square-facebook text-white-50"></i></a>
+                <a href="https://be.linkedin.com/in/joris-gijbels" target="_blank"><i class="fa-brands fa-linkedin text-white-50 px-2"></i></a>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/27d5e62956.js" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
